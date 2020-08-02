@@ -1,0 +1,58 @@
+/* renderform.php css- move this??? */
+#info {
+  min-width: 400px;
+  min-height: 100px;
+  border-radius: 5px;
+}
+
+#quote {
+	min-width: 200px;
+	min-height: 50px;
+  	border-radius: 5px;
+
+}
+
+.container_portal {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.option {
+	border: 2px solid indigo;
+	background-color: indigo;
+	border-radius: 3px;
+	align-content: center;
+	color: white;
+	display: block;
+	grid-column: 2/3;
+	text-align: center;
+	padding: 15px;
+	margin: 20px;
+	margin-top: 20%;
+
+}
+
+.option:hover {
+	background-color: navy;
+}
+
+.plus_new {
+	margin-left: 85%;
+	color: forestgreen;
+	padding: 5px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	/* clip art from webstockreview.net */
+	background-image: url(../images/plus.png);
+	background-repeat: no-repeat;
+}
+
+.cancel {
+	grid-column: 1/2;
+	text-align: left; 
+}
+
+
+table {
+	margin-top: 20px;
+}

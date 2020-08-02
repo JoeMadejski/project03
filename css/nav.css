@@ -16,6 +16,7 @@
     padding-left: 0; 
     /* justify-content: center; */
     justify-content: flex-end;
+    margin-top: 20px;
     margin-bottom: 0px;
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(96, 96, 96, 0.1);

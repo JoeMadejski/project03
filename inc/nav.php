@@ -10,5 +10,6 @@
 		<li> <a href="adira.php">Adira</a></li>
 		<li> <a href="jason.php">Jason</a></li>
 		<li> <a href="yilin.php">Yilin</a></li>
+		<li> <a href="db.php">Info</a></li>
 	</ul>
 </nav>

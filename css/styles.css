@@ -223,7 +223,8 @@ ul
 	height: auto;
 }
 
-.fgrid{
+.fgrid
+{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr;
@@ -232,7 +233,66 @@ ul
   justify-content: center;
 }
 
-.grid, .interests, .edu{
+.dbgrid 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px;
+    grid-column-gap: 0px;
+    justify-content: center;
+}
+
+table 
+{
+  grid-row: 2;
+  table-layout: fixed;
+  margin-top: 40px;
+}
+
+td {
+  word-break: break-all;
+}
+
+th.col-fname {
+  width: 15%;
+}
+
+th.col-lname {
+  width: 20%;
+}
+
+th.col-blurb {
+  width: 55%;
+}
+
+th.col-quote {
+  width: 20%;
+}
+
+th.col-link {
+  width: 15%;
+}
+
+th.col-functions {
+  width: 25%;
+}
+
+.dbgrid div 
+{
+  grid-row: 3;
+}
+
+.db-buttons {
+  margin-top: 20px;
+}
+
+.db-buttons a:nth-of-type(2) {
+  float: right;
+}
+
+.grid, .interests, .edu
+{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -399,7 +459,31 @@ article a
 
 .f-page p
 {
-  margin-top: 0px;
+  padding: 0px 10px 0px 12px;
+}
+
+.f-page section
+{
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 55px 25px 30px 10px;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.f-page section p
+{
+  color: #ffa1d0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.f-page a
+{
+  color: lightgray;
+  margin: auto;
+  text-align: center;
+  text-decoration: underline;
 }
 
 #f-page-div
