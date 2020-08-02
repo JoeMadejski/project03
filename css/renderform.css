@@ -1,0 +1,13 @@
+/* renderform.php css- move this??? */
+#info {
+  min-width: 400px;
+  min-height: 100px;
+  border-radius: 5px;
+}
+
+#quote {
+	min-width: 200px;
+	min-height: 50px;
+  	border-radius: 5px;
+
+}
